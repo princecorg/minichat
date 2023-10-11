@@ -5,7 +5,7 @@
 // Test de connexion
 try
 {
-    $bdd = new PDO('mysql:host=localhost;dbname=tchat;charset=utf8', 'root', 'abcd'); // attention un mot de passe a été défini pour l'accès à la base de données
+    $bdd = new PDO('mysql:host=SERVERNAME;dbname=DBNAME;charset=utf8', 'LOGIN', 'PASSWORD'); // insérez vos paramètres de connexion à la BDD.
 }
 
 // Gestion des erreurs
